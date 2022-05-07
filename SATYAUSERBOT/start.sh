@@ -11,7 +11,7 @@ echo """
                                                    
 
 """
-rm -rf SATYABOT
+rm -rf SATYAUSERBOT
 git clone https://github.com/SATYA-OP/SATYAUSERBOT
 cd SATYAUSERBOT
 python3 -m userbot
