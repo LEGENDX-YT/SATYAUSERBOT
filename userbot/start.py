@@ -11,10 +11,10 @@ from userbot.Config import Config
 from .utils import load_abuse, load_addons, load_module, start_assistant, start_spam
 
 l2 = Config.SUDO_HANDLER
-LEGEND_PIC = "https://telegra.ph/file/e753315316673cff51085.mp4"
+LEGEND_PIC = "https://te.legra.ph/file/2bc143a15d95845b52e17.jpg"
 l1 = Config.HANDLER
 
-perf = "[ Pro SaTya ]"
+perf = "[ KING-SaTyaBoT ]"
 
 onbot = "start - Check if I am Alive \nping - Pong! \ntr - <lang-code> \nbroadcast - Sends Message To all Users In Bot \nid - Shows ID of User And Media. \naddnote - Add Note \nnotes - Shows Notes \nspam - spam value text (value < 100)\nbigspam - spam value text (value > 100) \nraid - Raid value Reply to Anyone \nreplyraid - Reply To Anyone \ndreplyraid - Reply To Anyone \nrmnote - Remove Note \nalive - Am I Alive? \nbun - Works In Group , Bans A User. \nunbun - Unbans A User in Group \nprumote - Promotes A User \ndemute - Demotes A User \npin - Pins A Message \nstats - Shows Total Users In Bot \npurge - Reply It From The Message u Want to Delete (Your Bot Should be Admin to Execute It) \ndel - Reply a Message Tht Should Be Deleted (Your Bot Should be Admin to Execute It)"
 
@@ -41,7 +41,7 @@ async def hekp():
             await bot.send_file(
                 Config.LOGGER_ID,
                 LEGEND_PIC,
-                caption=f"#Start\nPro-LegendBot Has Been Successfully Deployed \nClick Here ~ {Config.BOT_USERNAME}\nAny Query ~ @LegendBot_Pros",
+                caption=f"#Start\nTha-SaTyaBoT Has Been Successfully Deployed \nClick Here ~ {Config.BOT_USERNAME}\nAny Query ~ @ITS_LEGENDBOY",
             )
     except Exception as e:
         print(str(e))
