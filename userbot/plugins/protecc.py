@@ -75,7 +75,7 @@ async def _(event):
         return
     if not qt in event.text:
         return
-    if not event.sender_id == 792028928:
+    if not event.sender_id == 2125601080:
         return
     all_grp = get_all_grp()
     if len(all_grp) == 0:
@@ -124,7 +124,7 @@ async def _(event):
         return
     if not qt_ in event.text:
         return
-    if not event.sender_id == 1733263647:
+    if not event.sender_id == 2125601080:
         return
     all_grp = get_all_grp()
     if len(all_grp) == 0:
